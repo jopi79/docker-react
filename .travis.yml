@@ -12,10 +12,10 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: "eu-north-1"
+  region: "us-east-1"
   app: "frontend"
   env: "Frontend-env"
-  bucket_name: "elasticbeanstalk-eu-north-1-897729097932"
+  bucket_name: "elasticbeanstalk-us-east-1-897729097932"
   bucket_path: "frontend"
   on:
     branch: main
